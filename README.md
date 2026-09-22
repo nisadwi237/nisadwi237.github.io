@@ -1,15 +1,17 @@
 # 1. Arcstore E-Commerce : Sales Revenue Analysis
 > End-to-end analytics project using Python (Google Colab) and Streamlit to identify sales performance and its impact on customer decision-making.
 ---
-##**Table of Contents** <br>
-[1. Business Understanding](#1-business-understanding)
-[2. Overview Data](#2-overview-data)
-[3. Cloud Environment & Tech Stack](#3-cloud-environment--tech-stack)
-[4. Data Wrangling (Gathering, Assessing, Cleaning)](#4-data-wrangling-gathering-assessing-cleaning)
-[5. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)
-[6. Key Findings](#6-key-findings)
-[7. Visualization & Explanatory Analysis](#7-visualization--explanatory-analysis)
-[8. Insights & Strategic Recommendations](#8-insights--strategic-recommendations)
+## **Table of Contents** 
+
+
+[1. Business Understanding](#1-business-understanding)<br>
+[2. Overview Data](#2-overview-data)<br>
+[3. Cloud Environment & Tech Stack](#3-cloud-environment--tech-stack)<br>
+[4. Data Wrangling (Gathering, Assessing, Cleaning)](#4-data-wrangling-gathering-assessing-cleaning)<br>
+[5. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)<br>
+[6. Key Findings](#6-key-findings)<br>
+[7. Visualization & Explanatory Analysis](#7-visualization--explanatory-analysis)<br>
+[8. Insights & Strategic Recommendations](#8-insights--strategic-recommendations)<br>
 ---
 **1. Business Understanding** 
 
