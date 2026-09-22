@@ -43,9 +43,30 @@ Dataset : `E-Commerce Public Dataset by Olist`
   |Source Table| Description | Analysis | 
   | :--- |:---:| :---: | 
   |Customers.csv | customer data such as names, contact details, and preferences, vital for personalized services and targeted marketing (customer_id,customer_name,customer_email,customer_city,customer_state)|5 |
-  | Order Items.csv | Lists individual items within orders, including product details and quantities, aiding in inventory management and order fulfillment. | Product Perform Analysis (order_id,product_id,seller_id,price,freight_value)|5|
+  | Order Items.csv | Lists individual items within orders, including product details and quantities, aiding in inventory management and order fulfillment (order_id,product_id,seller_id,price,freight_value)|5|
   | Orders.csv | Holds comprehensive order data, including customer details, products, and status, serving as a central repository for order management and tracking (order_id,customer_id,order_status,order_purchase_timestamp,order_approved_at)|5|
   |Products.csv|Catalogs product information, such as names, descriptions, and prices, essential for online shopping platforms to showcase and sell items (product_id,product_category,product_name,product_description,product_price) |5|
-  |Reviews.csv|Captures customer feedback and ratings for products, aiding in reputation management and influencing purchasing decisions. (review_id,order_id, review_score, review_comment_title, review_comment_message)|5}
+  |Reviews.csv|Captures customer feedback and ratings for products, aiding in reputation management and influencing purchasing decisions. (review_id,order_id, review_score, review_comment_title, review_comment_message)|5|
   |Sellers.csv|Contains information about sellers, including contact details and performance metrics, crucial for managing vendor relationships and ensuring quality control (seller_id, seller_name,seller_city, seller_state)|4|
-   
+
+## **Cloud Environment & Tech Stack**
+Tools:  Python (Pandas, Seaborn, Matplotlib) · Google Colab ·
+Deployment : Streamlit
+
+## **Data Wrangling**
+1. Gathering Data
+   <img width="880" height="218" alt="image" src="https://github.com/user-attachments/assets/327ab3d8-8c11-409b-8bdb-cb0d6cd7d9ce" />
+2. Assessing Data
+   <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/dcb0d735-43f5-48d8-be78-66bd69fc0d64" />
+   Assessing terdiri dari :
+   1. Menampilkan missing value
+   2. Memeriksa duplikasi data
+   3. Memeriksa parameter statistik
+3. Cleaning Data
+   <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />
+   Cleaning data terdiri data :
+   1. Menangani missing value
+   2. Menghapus duplikasi data
+   3. Menghitung jumlah nilai unik
+   4. Mengubah tipe data
+## Key 
