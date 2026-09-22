@@ -2,14 +2,14 @@
 > End-to-end analytics project using Python (Google Colab) and Streamlit to identify sales performance and its impact on customer decision-making.
 ---
 ##**Table of Contents** <br>
-[1. Business Understanding](1.business-understanding)<br>
-[2. Overview Data](2.overview-data)
-[3. Cloud Environment & Tech Stack](3.cloud-environment-&-tech-stack)
-[4. Data Wrangling (Gathering, Assessing, Cleaning)](4.data-wrangling-(gathering,-assessing,-cleaning)
-[5. Exploratory Data Analysis (EDA)](5.exploratory-data-analysis(EDA))
-[6. Key Findings](key-findings)
-[7. Visualization & Explanatory Analysis](visualization-&-explanatory-analysis)
-[8. Insights & Strategic Recommendations](insight&-strategic-recommendations)
+[1. Business Understanding](#1-business-understanding)
+[2. Overview Data](#2-overview-data)
+[3. Cloud Environment & Tech Stack](#3-cloud-environment--tech-stack)
+[4. Data Wrangling (Gathering, Assessing, Cleaning)](#4-data-wrangling-gathering-assessing-cleaning)
+[5. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)
+[6. Key Findings](#6-key-findings)
+[7. Visualization & Explanatory Analysis](#7-visualization--explanatory-analysis)
+[8. Insights & Strategic Recommendations](#8-insights--strategic-recommendations)
 ---
 **1. Business Understanding** 
 
@@ -39,7 +39,7 @@
 3. How do product ratings impact customer purchasing decisions?
    
 ## **2. Overview Data**
-Platform: Kaggle
+Platform: Kaggle <br>
 Dataset : `E-Commerce Public Dataset by Olist`
   |Source Table| Description | Analysis | 
   | :--- |:---:| :---: | 
@@ -51,7 +51,7 @@ Dataset : `E-Commerce Public Dataset by Olist`
   |Sellers.csv|Contains information about sellers, including contact details and performance metrics, crucial for managing vendor relationships and ensuring quality control (seller_id, seller_name,seller_city, seller_state)|4|
 
 ## **Cloud Environment & Tech Stack**
-Tools:  Python (Pandas, Seaborn, Matplotlib) · Google Colab ·
+Tools:  Python (Pandas, Seaborn, Matplotlib) · Google Colab · <br>
 Deployment : Streamlit
 
 ## **Data Wrangling**
@@ -59,23 +59,32 @@ Deployment : Streamlit
    <img width="880" height="218" alt="image" src="https://github.com/user-attachments/assets/327ab3d8-8c11-409b-8bdb-cb0d6cd7d9ce" />
 2. Assessing Data
    <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/dcb0d735-43f5-48d8-be78-66bd69fc0d64" />
-   Assessing terdiri dari :
+   Assessing consist of :
    1. Menampilkan missing value
    2. Memeriksa duplikasi data
    3. Memeriksa parameter statistik
 3. Cleaning Data
    <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />
-   Cleaning data terdiri data :
-   1. Menangani missing value
-   2. Menghapus duplikasi data
+   Cleaning data consist of :
+   1. Handling missing value
+   2. Remove duplicate data
    3. Menghitung jumlah nilai unik
    4. Mengubah tipe data
 
       
 ## **Exploratory Data Analysis**
 
+Mengubah tipe data pada kolom order_date & delivery_date menjadi `datetime`
+<img width="887" height="204" alt="image" src="https://github.com/user-attachments/assets/89e201d3-b750-4c6f-ae8a-bc4bece758d2" />
+
+Validitas Data
+<img width="439" height="69" alt="image" src="https://github.com/user-attachments/assets/924dc4b2-f97d-4e6b-a5fd-38bad1143933" />
+
+Menggabungkan data melalui proses merge dan Menghitung frekuensi pembelian produk
+<img width="856" height="226" alt="image" src="https://github.com/user-attachments/assets/633e24ad-91d1-4f1a-8d79-402e46733c9a" />
+
 ## **Key Findings**
-EDA conducted in Google Colab with import file csv. [Full notebook](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0)
+EDA conducted in Google Colab with import file csv. [Full notebook](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0) <br>
 **Finding 1 - Revenue Growth and Peak Performance**
 Graphic of Total Revenue per Month on September 2017-August 2018 <br>
 <img width="877" height="459" alt="image" src="https://github.com/user-attachments/assets/8d578d22-6afc-4ced-b409-95dbae9d8ecb" />
@@ -85,7 +94,7 @@ The line chart shows the e-commerce revenue performance throughout the observati
 
 **The Insight :**
 - Significant Decline & Volume Drop: A sharp drop in revenue was accompanied by a decrease in order volume, indicating a noticeable decline in customer purchasing activity. This downturn requires further investigation to identify potential drivers, such as shifting market demand, product performance issues, or operational bottlenecks.
-- Consistent Downward Trend (May–August 2018): Between May and August 2018, sales performance displayed a sustained downward trend, signaling a potential low-demand period. To counter this deceleration, targeted engagement strategies—such as tailored promotional campaigns and re-engagement initiatives—are necessary to stimulate customer demand.
+- Consistent Downward Trend (May–August 2018): Between May and August 2018, sales performance displayed a sustained downward trend, signaling a potential low-demand period. To counter this deceleration, targeted engagement strategies—such as tailored promotional campaigns and re-engagement initiatives—are necessary to stimulate customer demand.<br>
   
 **Finding 2 - Identifying top-selling products to optimize marketing strategies and budget allocation.**
 <img width="2493" height="583" alt="image" src="https://github.com/user-attachments/assets/53faf7e5-06d2-4437-8330-cff3b9cead58" />
@@ -93,7 +102,7 @@ The line chart shows the e-commerce revenue performance throughout the observati
 The top-selling product category is cama_mesa_banho, while seguros_e_services reflects the lowest customer interest. Each product category presents its own distinct strengths and weaknesses, but overall customer engagement and purchasing demand remain heavily concentrated in cama_mesa_banho.
 
 **The Insight :** 
--Certain categories exhibit low unit turnover despite high availability, signaling the need for inventory re-evaluation and targeted promotional campaigns (e.g., cross-selling or product bundling).
+-Certain categories exhibit low unit turnover despite high availability, signaling the need for inventory re-evaluation and targeted promotional campaigns (e.g., cross-selling or product bundling). <br>
 
 **Finding 3 - High Rating, High Potential: Growth Opportunities for Top-Rated Products** 
 <img width="2104" height="585" alt="image" src="https://github.com/user-attachments/assets/545f76cc-3661-411e-908d-0f126cc3524a" />
