@@ -43,14 +43,16 @@
 ## **2. Overview Data**
 Platform: Kaggle <br>
 Dataset : `E-Commerce Public Dataset by Olist`
-  |Source Table| Description | Analysis | 
-  | :--- |:---:| :---: | 
-  |Customers.csv | customer data such as names, contact details, and preferences, vital for personalized services and targeted marketing (customer_id,customer_name,customer_email,customer_city,customer_state)|5 |
-  | Order Items.csv | Lists individual items within orders, including product details and quantities, aiding in inventory management and order fulfillment (order_id,product_id,seller_id,price,freight_value)|5|
-  | Orders.csv | Holds comprehensive order data, including customer details, products, and status, serving as a central repository for order management and tracking (order_id,customer_id,order_status,order_purchase_timestamp,order_approved_at)|5|
-  |Products.csv|Catalogs product information, such as names, descriptions, and prices, essential for online shopping platforms to showcase and sell items (product_id,product_category,product_name,product_description,product_price) |5|
-  |Reviews.csv|Captures customer feedback and ratings for products, aiding in reputation management and influencing purchasing decisions. (review_id,order_id, review_score, review_comment_title, review_comment_message)|5|
-  |Sellers.csv|Contains information about sellers, including contact details and performance metrics, crucial for managing vendor relationships and ensuring quality control (seller_id, seller_name,seller_city, seller_state)|4|
+ Platform: Kaggle Dataset : `E-Commerce Public Dataset by Olist`
+
+| Source Table | Description | Analysis |
+| :--- | :--- | :---: |
+| **Customers.csv** | Customer data such as names, contact details, and preferences, vital for personalized services and targeted marketing `(customer_id, customer_name, customer_email, customer_city, customer_state)` | 5 |
+| **Order Items.csv** | Lists individual items within orders, including product details and quantities, aiding in inventory management and order fulfillment `(order_id, product_id, seller_id, price, freight_value)` | 5 |
+| **Orders.csv** | Holds comprehensive order data, including customer details, products, and status, serving as a central repository for order management and tracking `(order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at)` | 5 |
+| **Products.csv** | Catalogs product information, such as names, descriptions, and prices, essential for online shopping platforms to showcase and sell items `(product_id, product_category, product_name, product_description, product_price)` | 5 |
+| **Reviews.csv** | Captures customer feedback and ratings for products, aiding in reputation management and influencing purchasing decisions `(review_id, order_id, review_score, review_comment_title, review_comment_message)` | 5 |
+| **Sellers.csv** | Contains information about sellers, including contact details and performance metrics, crucial for managing vendor relationships and ensuring quality control `(seller_id, seller_name, seller_city, seller_state)` | 4 |
 
 ## **Cloud Environment & Tech Stack**
 Tools:  Python (Pandas, Seaborn, Matplotlib) · Google Colab · <br>
