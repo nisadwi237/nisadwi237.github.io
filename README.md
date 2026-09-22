@@ -5,10 +5,11 @@
 [1. Business Understanding](1.business-understanding)<br>
 [2. Overview Data](2.overview-data)
 [3. Cloud Environment & Tech Stack](3.cloud-environment-&-tech-stack)
-[4. Data Wrangling (Gathering, Assessing, Cleaning)](4.data-wrangling-(gathering,-Assessing,-cleaning)
-[5. Key Findings](key-findings)
-[6. Visualization & Explanatory Analysis](visualization-&-explanatory-analysis)
-[7. Insights & Strategic Recommendations](insight&-strategic-recommendations)
+[4. Data Wrangling (Gathering, Assessing, Cleaning)](4.data-wrangling-(gathering,-assessing,-cleaning)
+[5. Exploratory Data Analysis (EDA)](5.exploratory-data-analysis(EDA))
+[6. Key Findings](key-findings)
+[7. Visualization & Explanatory Analysis](visualization-&-explanatory-analysis)
+[8. Insights & Strategic Recommendations](insight&-strategic-recommendations)
 ---
 **1. Business Understanding** 
 
@@ -28,7 +29,7 @@
   |No| Objective | Analysis | 
   | :--- |:---:| :---: | 
   | 1 | Analyzing the month-over-month (MoM) fluctuations in revenue and order volume | Time Series Analysis |
-  | 2 | Analyzing and ranking unit sales volume (top-selling vs. slow-moving products) | Product Perform Analysis |
+  | 2 | Identifying top-selling products to optimize marketing strategies and budget allocation. | Product Perform Analysis |
   | 3 | Analyzing the Impact of Product Ratings on Purchase Decisions | Rating Score Analysis |
 
   
@@ -69,4 +70,35 @@ Deployment : Streamlit
    2. Menghapus duplikasi data
    3. Menghitung jumlah nilai unik
    4. Mengubah tipe data
-## Key 
+
+      
+## **Exploratory Data Analysis**
+
+## **Key Findings**
+EDA conducted in Google Colab with import file csv. [Full notebook](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0)
+**Finding 1 - Revenue Growth and Peak Performance**
+Graphic of Total Revenue per Month on September 2017-August 2018 <br>
+<img width="877" height="459" alt="image" src="https://github.com/user-attachments/assets/8d578d22-6afc-4ced-b409-95dbae9d8ecb" />
+<img width="836" height="474" alt="image" src="https://github.com/user-attachments/assets/2755207a-3a12-4820-abe3-a5cab44b1975" />
+ 
+The line chart shows the e-commerce revenue performance throughout the observation period. Revenue reached its peak in November 2017, whereas the lowest revenue was recorded in December 2017.
+
+**The Insight :**
+- Significant Decline & Volume Drop: A sharp drop in revenue was accompanied by a decrease in order volume, indicating a noticeable decline in customer purchasing activity. This downturn requires further investigation to identify potential drivers, such as shifting market demand, product performance issues, or operational bottlenecks.
+- Consistent Downward Trend (May–August 2018): Between May and August 2018, sales performance displayed a sustained downward trend, signaling a potential low-demand period. To counter this deceleration, targeted engagement strategies—such as tailored promotional campaigns and re-engagement initiatives—are necessary to stimulate customer demand.
+  
+**Finding 2 - Identifying top-selling products to optimize marketing strategies and budget allocation.**
+<img width="2493" height="583" alt="image" src="https://github.com/user-attachments/assets/53faf7e5-06d2-4437-8330-cff3b9cead58" />
+
+The top-selling product category is cama_mesa_banho, while seguros_e_services reflects the lowest customer interest. Each product category presents its own distinct strengths and weaknesses, but overall customer engagement and purchasing demand remain heavily concentrated in cama_mesa_banho.
+
+**The Insight :** 
+-Certain categories exhibit low unit turnover despite high availability, signaling the need for inventory re-evaluation and targeted promotional campaigns (e.g., cross-selling or product bundling).
+
+**Finding 3 - High Rating, High Potential: Growth Opportunities for Top-Rated Products** 
+<img width="2104" height="585" alt="image" src="https://github.com/user-attachments/assets/545f76cc-3661-411e-908d-0f126cc3524a" />
+
+Top Recommended Category: Based on aggregate customer review scores, the moveis_decoracao (furniture & decor) category is highly recommended due to its superior rating performance. High product quality consistently earns strong customer satisfaction across purchases.
+  
+**Insight :**
+High Growth Potential: Despite a lower total sales volume compared to cama_mesa_banho (bed, bath, & table), these products offer high value and demonstrate strong market competitiveness. With targeted promotional efforts, this category shows strong potential to challenge top-selling products over time.
