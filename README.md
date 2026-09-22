@@ -1,6 +1,8 @@
 # 1. Arcstore E-Commerce : Sales Revenue Analysis
 > End-to-end analytics project using Python (Google Colab) and Streamlit to identify sales performance and its impact on customer decision-making.
 ---
+
+
 ## **Table of Contents** 
 
 
@@ -13,6 +15,8 @@
 [7. Visualization & Explanatory Analysis](#7-visualization--explanatory-analysis)<br>
 [8. Insights & Strategic Recommendations](#8-insights--strategic-recommendations)<br>
 ---
+
+
 **1. Business Understanding** 
 
 
@@ -28,6 +32,8 @@
 
   
 **1.3 Business Objective**
+
+
   |No| Objective | Analysis | 
   | :--- |:---:| :---: | 
   | 1 | Analyzing the month-over-month (MoM) fluctuations in revenue and order volume | Time Series Analysis |
