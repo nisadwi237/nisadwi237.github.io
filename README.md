@@ -1,3 +1,12 @@
+<img width="1024" height="1254" alt="donee" src="https://github.com/user-attachments/assets/4f7003af-95e8-42b2-8e7d-34fa0f84f246" class="foto-3x4"/>
+
+> Hi, I'm Nisa! **A mathematics graduate** who is interested in data and with hands-on experience in data driven internship and projects. Dedicated **data analyst** professional with a passion for delivering in data visualization with a deep commitment to integrating communication, analytical skills, interpersonal and teamwork. <br><br>
+I focus on understanding business problems and achieving business goals through analysis using Excel, SQL, Python and visualizations with Power BI. I enjoy turning data into actionable insights to support data-driven decision-making. <br><br>
+**E-mail :** annisadwisasongko@gmail.com <br>
+**LinkedIn :** https://www.linkedin.com/in/annisadwisasongko/
+
+---
+
 # 1. Arcstore E-Commerce : Sales Revenue Analysis
 > End-to-end analytics project using Python (Google Colab) and Streamlit to identify sales performance and its impact on customer decision-making.
 ---
