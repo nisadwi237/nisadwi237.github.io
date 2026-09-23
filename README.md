@@ -65,14 +65,20 @@ Deployment : Streamlit
 
 ---
 ## **Data Wrangling**
+
+
 **1. Gathering Data**
    <img width="880" height="218" alt="image" src="https://github.com/user-attachments/assets/327ab3d8-8c11-409b-8bdb-cb0d6cd7d9ce" />
+
+   
 **2. Assessing Data**
    <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/dcb0d735-43f5-48d8-be78-66bd69fc0d64" />
    Here is the breakdown of the process :
    1. Displaying missing values
    2. Checking for duplicate data
    3. Checking statistical parameters and counting unique values
+
+      
 **3. Cleaning Data**
    <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />
    Main Stages of Cleaning Data :
@@ -86,7 +92,7 @@ Deployment : Streamlit
 **Transform data types, including converting data types in the `order_date` & `delivery_date` columns to `datetime`**
 <img width="887" height="204" alt="image" src="https://github.com/user-attachments/assets/89e201d3-b750-4c6f-ae8a-bc4bece758d2" />
 
-**Validitas Data**
+**Validitas Data** <br>
 <img width="439" height="69" alt="image" src="https://github.com/user-attachments/assets/924dc4b2-f97d-4e6b-a5fd-38bad1143933" />
 
 **Merging data and calculating product purchase frequency**
@@ -143,5 +149,5 @@ Based on the analysis results, several recommendations to consider are:
 By executing these strategies in a targeted manner and conducting regular evaluations, the business is expected to improve sales performance and sustain revenue growth.
 
 ---
-Dataset: [Arcstore Ecommerce — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+Dataset: [Arcstore Ecommerce — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) <br>
 EDA: [Python for EDA — Google Colab](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0)
