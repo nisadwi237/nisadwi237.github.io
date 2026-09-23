@@ -1,19 +1,18 @@
-<img width="1024" height="1254" alt="donee" src="https://github.com/user-attachments/assets/4f7003af-95e8-42b2-8e7d-34fa0f84f246" class="foto-3x4"/>
-
-> Hi, I'm Nisa! **A mathematics graduate** who is interested in data and with hands-on experience in data driven internship and projects. Dedicated **data analyst** professional with a passion for delivering in data visualization with a deep commitment to integrating communication, analytical skills, interpersonal and teamwork. <br><br>
-I focus on understanding business problems and achieving business goals through analysis using Excel, SQL, Python and visualizations with Power BI. I enjoy turning data into actionable insights to support data-driven decision-making. <br><br>
-**E-mail :** annisadwisasongko@gmail.com <br>
-**LinkedIn :** https://www.linkedin.com/in/annisadwisasongko/
+<p align="justify">
+  <img src="https://github.com/user-attachments/assets/4f7003af-95e8-42b2-8e7d-34fa0f84f246" width="130" align="left" style="margin-right: 15px;" alt="Pasfoto 3x4">
+  Hi, I'm Nisa! <b>A mathematics graduate</b> who is interested in data and with hands-on experience in data driven internship and projects. Dedicated <b>data analyst</b> professional with a passion for delivering in data visualization with a deep commitment to integrating communication, analytical skills, interpersonal and teamwork. <br><br>
+  I focus on understanding business problems and achieving business goals through analysis using Excel, SQL, Python and visualizations with Power BI. I enjoy turning data into actionable insights to support data-driven decision-making. <br><br><br>
+  <b>E-mail :</b> <a href="mailto:annisadwisasongko@gmail.com">annisadwisasongko@gmail.com</a> <br>
+  <b>LinkedIn :</b> <a href="https://www.linkedin.com/in/annisadwisasongko/">linkedin.com/in/annisadwisasongko</a>
+</p>
 
 ---
-
 # 1. Arcstore E-Commerce : Sales Revenue Analysis
 > End-to-end analytics project using Python (Google Colab) and Streamlit to identify sales performance and its impact on customer decision-making.
 ---
 
 
 ## **Table of Contents** 
-
 
 [1. Business Understanding](#1-business-understanding)<br>
 [2. Overview Data](#2-overview-data)<br>
@@ -23,8 +22,8 @@ I focus on understanding business problems and achieving business goals through 
 [6. Key Findings](#6-key-findings)<br>
 [7. Visualization & Explanatory Analysis](#7-visualization--explanatory-analysis)<br>
 [8. Insights & Strategic Recommendations](#8-insights--strategic-recommendations)<br>
----
 
+---
 
 ## **1. Business Understanding** 
 
@@ -80,7 +79,7 @@ Deployment : Streamlit
    <img width="880" height="218" alt="image" src="https://github.com/user-attachments/assets/327ab3d8-8c11-409b-8bdb-cb0d6cd7d9ce" />
 
    
-**2. Assessing Data**
+**2. Assessing Data** <br>
    <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/dcb0d735-43f5-48d8-be78-66bd69fc0d64" />
    Here is the breakdown of the process :
    1. Displaying missing values
@@ -88,8 +87,8 @@ Deployment : Streamlit
    3. Checking statistical parameters and counting unique values
 
       
-**3. Cleaning Data**
-   <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />
+**3. Cleaning Data** <br>
+   <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />  <br>
    Main Stages of Cleaning Data :
    1. Handling missing value
    2. Remove duplicate data
