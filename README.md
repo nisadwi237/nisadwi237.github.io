@@ -33,23 +33,23 @@
 ### 1.3 Business Objective
 
 | No | Objective | Analysis |
-| :-: | :--- | :--- |
+| :-: | :---: | :---: |
 | 1 | Analyzing the month-over-month (MoM) fluctuations in revenue and order volume | Time Series Analysis |
 | 2 | Identifying top-selling products to optimize marketing strategies and budget allocation. | Product Perform Analysis |
 | 3 | Analyzing the Impact of Product Ratings on Purchase Decisions | Rating Score Analysis |
   
-### **1.4 Key Business Questions** <br>
+### **1.4 Key Business Questions** 
 1. How have e-commerce sales performance and revenue trended over the past year?
 2. Which products are the top-selling and slow-moving items?
 3. How do product ratings impact customer purchasing decisions?
-   
+---
 ## **2. Overview Data**
 Platform: Kaggle <br>
 Dataset : `E-Commerce Public Dataset by Olist`
  Platform: Kaggle Dataset : `E-Commerce Public Dataset by Olist`
 
-| Source Table | Description | Analysis |
-| :--- | :--- | :---: |
+| Source Table | Description | Column |
+| :---: | :---: | :---: |
 | **Customers.csv** | Customer data such as names, contact details, and preferences, vital for personalized services and targeted marketing `(customer_id, customer_name, customer_email, customer_city, customer_state)` | 5 |
 | **Order Items.csv** | Lists individual items within orders, including product details and quantities, aiding in inventory management and order fulfillment `(order_id, product_id, seller_id, price, freight_value)` | 5 |
 | **Orders.csv** | Holds comprehensive order data, including customer details, products, and status, serving as a central repository for order management and tracking `(order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at)` | 5 |
@@ -57,42 +57,46 @@ Dataset : `E-Commerce Public Dataset by Olist`
 | **Reviews.csv** | Captures customer feedback and ratings for products, aiding in reputation management and influencing purchasing decisions `(review_id, order_id, review_score, review_comment_title, review_comment_message)` | 5 |
 | **Sellers.csv** | Contains information about sellers, including contact details and performance metrics, crucial for managing vendor relationships and ensuring quality control `(seller_id, seller_name, seller_city, seller_state)` | 4 |
 
+---
 ## **Cloud Environment & Tech Stack**
 Tools:  Python (Pandas, Seaborn, Matplotlib) · Google Colab · <br>
 Deployment : Streamlit
 
+---
 ## **Data Wrangling**
-1. Gathering Data
+**1. Gathering Data**
    <img width="880" height="218" alt="image" src="https://github.com/user-attachments/assets/327ab3d8-8c11-409b-8bdb-cb0d6cd7d9ce" />
-2. Assessing Data
+**2. Assessing Data**
    <img width="847" height="204" alt="image" src="https://github.com/user-attachments/assets/dcb0d735-43f5-48d8-be78-66bd69fc0d64" />
-   Assessing consist of :
-   1. Menampilkan missing value
-   2. Memeriksa duplikasi data
-   3. Memeriksa parameter statistik
-3. Cleaning Data
+   Here is the breakdown of the process :
+   1. Displaying missing values
+   2. Checking for duplicate data
+   3. Checking statistical parameters and counting unique values
+**3. Cleaning Data**
    <img width="855" height="214" alt="image" src="https://github.com/user-attachments/assets/69759254-2f1b-4122-a654-cfcdfbf7faa8" />
-   Cleaning data consist of :
+   Main Stages of Cleaning Data :
    1. Handling missing value
    2. Remove duplicate data
-   3. Menghitung jumlah nilai unik
-   4. Mengubah tipe data
+   3. Mengubah tipe data
 
-      
+---
 ## **Exploratory Data Analysis**
 
-Mengubah tipe data pada kolom order_date & delivery_date menjadi `datetime`
+**Transform data types, including converting data types in the `order_date` & `delivery_date` columns to `datetime`**
 <img width="887" height="204" alt="image" src="https://github.com/user-attachments/assets/89e201d3-b750-4c6f-ae8a-bc4bece758d2" />
 
-Validitas Data
+**Validitas Data**
 <img width="439" height="69" alt="image" src="https://github.com/user-attachments/assets/924dc4b2-f97d-4e6b-a5fd-38bad1143933" />
 
-Menggabungkan data melalui proses merge dan Menghitung frekuensi pembelian produk
+**Merging data and calculating product purchase frequency**
 <img width="856" height="226" alt="image" src="https://github.com/user-attachments/assets/633e24ad-91d1-4f1a-8d79-402e46733c9a" />
 
+---
 ## **Key Findings**
-EDA conducted in Google Colab with import file csv. [Full notebook](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0) <br>
-**Finding 1 - Revenue Growth and Peak Performance**
+EDA conducted in Google Colab with import file csv. [Full notebook](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0) 
+
+
+**Finding 1 - Revenue Growth and Peak Performance** <br>
 Graphic of Total Revenue per Month on September 2017-August 2018 <br>
 <img width="877" height="459" alt="image" src="https://github.com/user-attachments/assets/8d578d22-6afc-4ced-b409-95dbae9d8ecb" />
 <img width="836" height="474" alt="image" src="https://github.com/user-attachments/assets/2755207a-3a12-4820-abe3-a5cab44b1975" />
@@ -118,3 +122,25 @@ Top Recommended Category: Based on aggregate customer review scores, the moveis_
   
 **Insight :**
 High Growth Potential: Despite a lower total sales volume compared to cama_mesa_banho (bed, bath, & table), these products offer high value and demonstrate strong market competitiveness. With targeted promotional efforts, this category shows strong potential to challenge top-selling products over time.
+
+---
+## Dashboard
+[Deploy dashboard using Streamlit](https://github.com/nisadwi237/Ecommerce-Sales-Revenue-Analysis/blob/main/dashboard.py)
+<img width="403" height="370" alt="image" src="https://github.com/user-attachments/assets/15667464-05bc-477c-9052-3714517608c8" />
+
+**Building a dashboard design in Figma**
+<img width="3000" height="2134" alt="Dashboard arcstore2_page-0001" src="https://github.com/user-attachments/assets/3cdb8ac7-5d23-48b0-8001-9c3529b1377c" />
+
+## **Insights & Strategic Recommendations**
+
+Based on the analysis results, several recommendations to consider are:
+
+1. Launch sales campaigns during low-performance periods to boost traffic, engagement, and conversion.
+2. Optimize product quality and performance, especially for products with low sales volumes or poor ratings.
+3. Monitor revenue and order trends regularly to identify performance drops early and take timely, appropriate action.
+
+By executing these strategies in a targeted manner and conducting regular evaluations, the business is expected to improve sales performance and sustain revenue growth.
+
+---
+Dataset: [Arcstore Ecommerce — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+EDA: [Python for EDA — Google Colab](https://colab.research.google.com/drive/1pkpOjJHFtlYj51ButCciIE__inWXYLt1#scrollTo=GmQeQ5YF8DC0)
