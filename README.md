@@ -140,7 +140,7 @@ High Growth Potential: Despite a lower total sales volume compared to cama_mesa_
 
 ---
 ## Dashboard
-[Deploy dashboard using Streamlit](https://github.com/nisadwi237/Ecommerce-Sales-Revenue-Analysis/blob/main/dashboard.py)
+[Deploy dashboard using Streamlit](https://github.com/nisadwi237/Ecommerce-Sales-Revenue-Analysis/blob/main/dashboard.py) <br>
 <img width="403" height="370" alt="image" src="https://github.com/user-attachments/assets/15667464-05bc-477c-9052-3714517608c8" />
 
 **Building a dashboard design in Figma**
