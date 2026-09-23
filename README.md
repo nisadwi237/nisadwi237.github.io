@@ -42,6 +42,7 @@
 1. How have e-commerce sales performance and revenue trended over the past year?
 2. Which products are the top-selling and slow-moving items?
 3. How do product ratings impact customer purchasing decisions?
+   
 ---
 ## **2. Overview Data**
 Platform: Kaggle <br>
